@@ -9,6 +9,12 @@
 </head>
 <body>
 <h1>Hallo</h1>
+
+<div class="blackcard">
+_______: een groot succes!
+</div>
+
+
 <form method="post" action="">
 <input type="submit" value="Kies een kaart"> 
 <div class="hand">
@@ -26,6 +32,7 @@
 </div>
 </div>
 </form>
+
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/css; charset=UTF-8"
     pageEncoding="UTF-8"%>
 body {
-	background-color: #000000;
+	background-color: #3e3f42;
 	position: relative;
 	padding: 5%;
 	font-family: Sans-serif;
@@ -41,6 +41,17 @@ ul {
 	font-weight: bold;
 	padding: 10px;
 	display: table-cell;
+}
+
+.blackcard {
+	box-shadow: 5px 10px gray;
+	background-color: black;
+	color: white;
+	height: 200px;
+	width: 150px;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 10px;
 }
 
 
