@@ -9,5 +9,9 @@
 </head>
 <body>
 <h1>Hallo</h1>
+<div class="whitecard"> 
+	Een broodje Poep
+</div>
+
 </body>
 </html>

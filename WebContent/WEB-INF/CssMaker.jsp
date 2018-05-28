@@ -3,20 +3,8 @@
 body {
 	background-color: #000000;
 	position: relative;
-}
-
-body:after {
 	padding: 5%;
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(topper.jpg); 
-    width: 100%;
-    height: 100%;
-    opacity : 0.4;
-    z-index: -1;
+	font-family: "sans-serif";
 }
 
 h1 {
@@ -24,7 +12,7 @@ h1 {
 }
 
 p {
-	color: #f213af;
+	color: white;
 }
 
 ul {
@@ -32,12 +20,13 @@ ul {
 	text-align: left;
 }
 
-table{
-	table-layout: fixed;
-	width: 300px;
-	border: 1px solid darkgray;
-	border-spacing: 0px;
-	background-opacity:
+.whitecard {
+	padding: 3px;
+	border: 5px gray;
+	background-color: white;
+	height: 200px;
+	width: 150px;
+	border-radius: 5px;
 }
 
 th{
