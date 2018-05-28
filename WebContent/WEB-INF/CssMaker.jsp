@@ -4,7 +4,7 @@ body {
 	background-color: #000000;
 	position: relative;
 	padding: 5%;
-	font-family: "sans-serif";
+	font-family: Sans-serif;
 }
 
 h1 {
@@ -20,27 +20,39 @@ ul {
 	text-align: left;
 }
 
+.hand {
+	display: table;
+	padding: 10px;
+	border-spacing: 10px;
+
+}
+
+.rij {
+	text-align:center;
+	display: table-row;
+}
+
 .whitecard {
-	padding: 3px;
-	border: 5px gray;
+	box-shadow: 5px 10px gray;
 	background-color: white;
 	height: 200px;
 	width: 150px;
 	border-radius: 5px;
+	font-weight: bold;
+	padding: 10px;
+	display: table-cell;
 }
+
+
 
 th{
 	color: blue;
 	height: 50px;
 }
 
-td{
-	height: 30px;
-	text-align: right;
-}
-
 tr:hover {
 	background-color: #f5f5f5;
+	border-spacing: 10px;
 }
 
 tr:nth-child(even) {

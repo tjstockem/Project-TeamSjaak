@@ -9,9 +9,23 @@
 </head>
 <body>
 <h1>Hallo</h1>
+<form method="post" action="">
+<input type="submit" value="Kies een kaart"> 
+<div class="hand">
+<div class="rij">
 <div class="whitecard"> 
-	Een broodje Poep
+	${kaart1.tekst}
 </div>
+<div class="whitecard"> 
+	${kaart2.tekst}
+</div>
+</div>
+<div class="rij">
+<div style="display:table-cell"><input type="checkbox" name="kaart1" value="${kaart1.tekst}" ></div>
+<div style="display:table-cell"><input type="checkbox" name="kaart2" value="${kaart2.tekst}"></div>
+</div>
+</div>
+</form>
 
 </body>
 </html>
